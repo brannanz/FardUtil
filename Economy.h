@@ -17,7 +17,7 @@ namespace FardUtil
 				Antartic = 3
 			};
 
-			int Amount;
+			int Amount = 0;
 
 			void DefaultValues();
 
