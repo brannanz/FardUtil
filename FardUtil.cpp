@@ -19,11 +19,11 @@ int main()
     {
         std::cout << "You chose an option!\n";
     }
-    else if (menuval == 1 || menuval == 2)
+    else if (menuval == 2 || menuval == 3)
     {
         std::cout << "Unimplemented.\n";
     }
-    else if (menuval == 3)
+    else if (menuval == 4)
     {
         return rval.CalculateReturnValueAdvAlg();
     }
