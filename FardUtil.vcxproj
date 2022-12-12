@@ -129,10 +129,13 @@
   <ItemGroup>
     <ClCompile Include="FardUtil.cpp" />
     <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="QuikMaths.cpp" />
     <ClCompile Include="ReturnVal.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ComnNums.h" />
     <ClInclude Include="MainMenu.h" />
+    <ClInclude Include="QuikMaths.h" />
     <ClInclude Include="ReturnVal.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

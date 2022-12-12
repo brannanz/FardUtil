@@ -4,6 +4,8 @@
 #include <iostream>
 #include "ReturnVal.h"
 #include "MainMenu.h"
+#include "QuikMaths.h"
+#include "ComnNums.h"
 
 int main()
 {
@@ -11,6 +13,8 @@ int main()
     FardUtil::MainMenu mm;
     // Using returnvalue for this.
     FardUtil::ReturnVal rval;
+    // QuikMaths to do some advanced maths
+    FardUtil::MathUniverse::QuikMaths qmath;
 
     int menuval;
     menuval = mm.InitMainMenu("See more FardUtil", "See yet more FardUtil examples", "Even more FardUtil examples", "Exit");
@@ -24,6 +28,7 @@ int main()
         if (option1submenu1answer == 1)
         {
             std::cout << "Submenu hell sucks.";
+            std::cout << qmath.Add3Nums(1, 1, FardUtil::MathUniverse::CommonNumbers::MeaningOfLife);
         }
     }
     else if (menuval == 2 || menuval == 3)
