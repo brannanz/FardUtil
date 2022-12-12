@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Economy.cpp" />
     <ClCompile Include="FardUtil.cpp" />
     <ClCompile Include="MainMenu.cpp" />
     <ClCompile Include="QuikMaths.cpp" />
@@ -134,9 +135,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ComnNums.h" />
+    <ClInclude Include="Economy.h" />
     <ClInclude Include="MainMenu.h" />
     <ClInclude Include="QuikMaths.h" />
     <ClInclude Include="ReturnVal.h" />
+    <ClInclude Include="XtraExamples.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

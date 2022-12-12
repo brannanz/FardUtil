@@ -6,6 +6,7 @@
 #include "MainMenu.h"
 #include "QuikMaths.h"
 #include "ComnNums.h"
+#include "XtraExamples.h"
 
 int main()
 {
@@ -33,7 +34,7 @@ int main()
     }
     else if (menuval == 2 || menuval == 3)
     {
-        std::cout << "Unimplemented.\n";
+        FardUtil::Examples::Example1();
     }
     else if (menuval == 4)
     {

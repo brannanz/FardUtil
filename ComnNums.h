@@ -1,3 +1,4 @@
+// Copyright FardUtil Team 2022.
 #pragma once
 
 namespace FardUtil
