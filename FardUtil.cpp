@@ -28,7 +28,7 @@ int main()
         if (option1submenu1answer == 1)
         {
             std::cout << "Submenu hell sucks.";
-            std::cout << qmath.Add3Nums(1, 1, FardUtil::MathUniverse::CommonNumbers::MeaningOfLife);
+            std::cout << qmath.Add3Nums(1, 1, FardUtil::MathUniverse::CommonNumbers::MeaningOfLife / FardUtil::MathUniverse::CommonNumbers::PI);
         }
     }
     else if (menuval == 2 || menuval == 3)
