@@ -17,7 +17,14 @@ int main()
 
     if (menuval == 1)
     {
-        std::cout << "You chose an option!\n";
+        std::cout << "You chose option 1!\n";
+        FardUtil::MainMenu option1submenu1;
+        int option1submenu1answer;
+        option1submenu1answer = option1submenu1.InitMainMenu("Testmenu 1", "", "", "");
+        if (option1submenu1answer == 1)
+        {
+            std::cout << "Submenu hell sucks.";
+        }
     }
     else if (menuval == 2 || menuval == 3)
     {
