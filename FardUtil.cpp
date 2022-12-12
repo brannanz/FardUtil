@@ -17,16 +17,19 @@ int main()
 
     if (menuval == 1)
     {
-        std::cout << "You chose an option!";
+        std::cout << "You chose an option!\n";
     }
     else if (menuval == 1 || menuval == 2)
     {
-        std::cout << "Unimplemented.";
+        std::cout << "Unimplemented.\n";
     }
     else if (menuval == 3)
     {
         return rval.CalculateReturnValueAdvAlg();
     }
+
+    int dummy;
+    std::cin >> dummy;
     
     return rval.CalculateReturnValueAdvAlg();
 }
